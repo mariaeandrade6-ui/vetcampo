@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/fundo2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;/* Mantém a imagem fixa ao rolar a página */
+    min-height: 100vh;/* Altura mínima igual à altura da tela */
+    font-family: serif;
+    color: rgb(255, 255, 255);
+}
+.cabecalho{
+    text-align: center; 
+    padding-top: 60px; 
+    
+}
+.titulo-principal{
+    font-size: 90px; 
+    letter-spacing: 8px; 
+    text-shadow: 3px 3px 10px rgb(255, 255, 255); /* Sombra */
+}
+.subtitulo{
+    font-size: 24px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 8px rgb(255, 255, 255);
+}
+.conteudo-principal{
+    width: 90%; 
+    max-width: 1200px;
+    margin: auto; 
+    margin-top: 50px;
+}
+.historia{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.historia h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgb(255, 255, 255);
+}
+.historia p{
+    font-size: 20px;
+    line-height: 1.8; /* Espaçamento entre linhas */
+    max-width: 850px;
+    margin: auto;
+    text-shadow: 2px 2px 8px rgb(255, 255, 255);
+}
+.musicas{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.musicas h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgb(255, 255, 255);
+}
+.albuns{
+    text-align: center;
+}
+.albuns h2{
+    font-size: 38px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 8px rgb(255, 255, 255);
+}
+.lista-albuns{
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    flex-wrap: wrap; /* Quebra a linha */
+}
+.album{
+    width: 220px;
+    transition: 0.4s; 
+}
+.album:hover{
+    transform: scale(1.08); /* Aumenta o tamanho */
+}
+.album img{
+    width: 100%; 
+    border-radius: 12px; 
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7); 
+}
+.album h3{
+    margin-top: 12px;
+    font-size: 22px;
+    text-shadow: 2px 2px 8px rgb(255, 255, 255);
+}
+
